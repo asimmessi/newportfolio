@@ -1,4 +1,4 @@
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
 import "./Footer.css";
 import "./HeroImageStyles.css";
 
@@ -70,14 +70,14 @@ const Footer = () => {
             </div>
             <div className="right">
                 <h4>About me</h4>
-                <p>This is me, Asim Shrestha😒. I enjoy <span className="wrap text">{text1}</span></p>
+                <p>This is me, Asim Shrestha😁. I enjoy <span className="wrap text">{text1}</span></p>
                 <div className="social">
-                    <FaFacebook size={30} style={{color: "#fff", marginRight:"1rem"}}/>
+                    <a href="https://www.facebook.com/asim.shrestha.96"><FaFacebook size={30} style={{color: "#fff", marginRight:"1rem"}}/></a>
 
-                    <FaTwitter size={30} style={{color: "#fff", marginRight:"1rem"}}/>
+                    <a href="https://www.instagram.com/as_i_m11/"><FaInstagram size={30} style={{color: "#fff", marginRight:"1rem"}}/></a>
                 
                 
-                    <FaLinkedin size={30} style={{color: "#fff", marginRight:"1rem"}}/>
+                    <a href="https://www.linkedin.com/in/asim-shrestha/"><FaLinkedin size={30} style={{color: "#fff", marginRight:"1rem"}}/></a>
 
                 </div>
             </div>

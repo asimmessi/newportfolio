@@ -4,7 +4,6 @@ import React from 'react'
 import bgimg from "../assets/bgimg.jpg"
 import { Link } from "react-router-dom";
 import 'animation.css'
-import TrackVisibility from "react-on-screen";
 import { useState, useEffect } from "react";
 import bg from "../assets/pic.png"
 

@@ -8,6 +8,18 @@
     height: 100%
 }
 
+.skills {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+
+.skills:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
 .about .left{
     text-align: center;
     margin: auto;
@@ -50,3 +62,4 @@
     z-index: 5;
 
 }
+
